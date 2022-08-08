@@ -1,0 +1,28 @@
+/* Header */
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.inside-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.inside-header a {
+  padding: 0rem 3rem;
+}
+.nav-right {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+
+
+/* Footer */
+.footer {
+  background-color: #333132;
+  height: 300px;
+}

@@ -37,15 +37,20 @@
 .image-copy img {
   width: 50%;
 }
+.image-copy .copy h2 {
+  font-size: 45px;
+}
+
 
 .image-copy-one .col {
   display: flex;
 }
 .image-copy-one img {
-  border-right: solid 400px #FEC62E;
+  border-right: solid 350px #FEC62E;
+  width: 85%;
 }
 .image-copy-one .copy {
-  margin-left: -350px;
+  margin-left: -300px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -54,12 +59,14 @@
 
 .image-copy-two .col {
   display: flex;
+  justify-content: end;
 }
 .image-copy-two img {
-  border-left: solid 300px #EB3F1B;
+  border-left: solid 200px #EB3F1B;
+  width: 70%
 }
 .image-copy-two .copy {
-  margin-right: -250px;
+  margin-right: -150px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -71,10 +78,10 @@
   display: flex;
 }
 .image-copy-three img {
-  border-right: solid 250px #00A3E0;
+  border-right: solid 150px #00A3E0;
 }
 .image-copy-three .copy {
-  margin-left: -200px;
+  margin-left: -100px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -84,9 +91,11 @@
 
 .image-copy-four .col {
   display: flex;
+  justify-content: end;
 }
 .image-copy-four img {
   border-left: solid 300px #EB3F1B;
+  width: 85%;
 }
 .image-copy-four .copy {
   margin-right: -250px;
@@ -101,10 +110,11 @@
   display: flex;
 }
 .image-copy-five img {
-  border-right: solid 250px #FEC62E;
+  border-right: solid 200px #FEC62E;
+  width: 60%;
 }
 .image-copy-five .copy {
-  margin-left: -200px;
+  margin-left: -150px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -114,12 +124,14 @@
 
 .image-copy-six .col {
   display: flex;
+  justify-content: end;
 }
 .image-copy-six img {
-  border-left: solid 300px #00A3E0;
+  border-left: solid 175px #00A3E0;
+  width: 45%;
 }
 .image-copy-six .copy {
-  margin-right: -250px;
+  margin-right: -140px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -131,10 +143,11 @@
   display: flex;
 }
 .image-copy-seven img {
-  border-right: solid 250px #EB3F1B;
+  border-right: solid 350px #EB3F1B;
+  width: 85%;
 }
 .image-copy-seven .copy {
-  margin-left: -200px;
+  margin-left: -300px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -144,12 +157,14 @@
 
 .image-copy-eight .col {
   display: flex;
+  justify-content: end;
 }
 .image-copy-eight img {
-  border-left: solid 300px #FEC62E;
+  border-left: solid 250px #FEC62E;
+  width: 75%;
 }
 .image-copy-eight .copy {
-  margin-right: -250px;
+  margin-right: -200px;
   height: 100%;
   display: flex;
   justify-content: center;

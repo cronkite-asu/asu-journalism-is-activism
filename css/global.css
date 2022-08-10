@@ -13,21 +13,94 @@
 }
 .inside-header a {
   padding: 0rem 3rem;
+  color: white !important;
+  text-decoration: none;
+}
+.dropdown-menu a {
+  color: black !important;
+  inline-size: 300px;
+}
+.dropdown-toggle:after {
+  display: none;
 }
 .nav-right {
   display: flex;
   list-style: none;
   margin: 0;
 }
-
-.hero {
-  z-index: -1;
+.dropdown-menu.show {
+  padding: 1rem 1.5rem;
+}
+.dropdown-item {
+  padding: 0rem !important;
+}
+.nav-exit {
+  padding: 0rem !important;
+  display: flex;
+  justify-content: flex-end;
+}
+.fa-xmark {
+  color: #707070;
 }
 
 
+/* Header - this is for the main homepage */
+.hero {
+  z-index: -1;
+  position: relative;
+}
+.fade:not(.show) {
+  opacity: 1;
+}
+.hero-text {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.hero-text h2 {
+  color: white;
+  font-size: 225px;
+}
+.hero-text p {
+  background-color: #FEC62E;
+  padding: 0rem 4rem 2rem 2rem;
+  position: absolute;
+  left: 39%;
+  font-size: 40px;
+  z-index: -1;
+  bottom: 55%;
+}
+
+/* Header - this is for subsequent pages */
+.hero-subpage {
+  background-color: #EB3F1B;
+  height: 250px;
+  position: relative;
+}
+.hero-subpage .hero-text {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.hero-subpage .hero-text h2 {
+  font-size: 125px;
+}
+.hero-subpage .hero-text p {
+  font-size: 24px;
+  padding: 0rem 3rem 2rem 1rem;
+  left: 42%;
+  bottom: 40%;
+}
+
 /* Full Width Content - Homepage */
 .full-width-content {
-  padding: 6rem;
+  padding: 4rem;
 }
 
 /* Image - Copy */
@@ -78,10 +151,11 @@
   display: flex;
 }
 .image-copy-three img {
-  border-right: solid 150px #00A3E0;
+  border-right: solid 200px #00A3E0;
+  width: 45%;
 }
 .image-copy-three .copy {
-  margin-left: -100px;
+  margin-left: -150px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -110,11 +184,11 @@
   display: flex;
 }
 .image-copy-five img {
-  border-right: solid 200px #FEC62E;
+  border-right: solid 300px #FEC62E;
   width: 60%;
 }
 .image-copy-five .copy {
-  margin-left: -150px;
+  margin-left: -250px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -174,16 +248,32 @@
 
 
 
+/* Subpages */
+/* Articles */
+.recommended a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+
 /* Footer */
 .footer {
   background-color: #333132;
   height: 300px;
 }
-.footer-left {
-  display: flex;
-  align-items: center;
+.footer-content img {
+  width: 100%;
 }
-.footer-left p, .footer-copyright p {
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-social img {
+  width: auto;
+  height: 50%;
+}
+.address-number-email p, .footer-copyright p {
   margin: 0;
   color: white;
 }

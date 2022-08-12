@@ -34,6 +34,9 @@
 .dropdown-item {
   padding: 0rem !important;
 }
+.dropdown-item:hover {
+  background-color: #FEC62E;
+}
 .nav-exit {
   padding: 0rem !important;
   display: flex;
@@ -42,6 +45,7 @@
 .fa-xmark {
   color: #707070;
 }
+
 
 
 /* Header - this is for the main homepage */
@@ -74,6 +78,8 @@
   bottom: 55%;
 }
 
+
+
 /* Header - this is for subsequent pages */
 .hero-subpage {
   background-color: #EB3F1B;
@@ -98,10 +104,14 @@
   bottom: 40%;
 }
 
+
+
 /* Full Width Content - Homepage */
 .full-width-content {
-  padding: 4rem;
+  padding: 6rem 0rem 4rem;
 }
+
+
 
 /* Image - Copy */
 .image-copy {
@@ -110,9 +120,17 @@
 .image-copy img {
   width: 50%;
 }
+.image-copy .copy a {
+  text-decoration: none;
+  color: black;
+}
+.image-copy .copy a:hover {
+  border-bottom: 1px solid black;
+}
 .image-copy .copy h2 {
   font-size: 45px;
 }
+
 
 
 .image-copy-one .col {
@@ -250,17 +268,108 @@
 
 /* Subpages */
 /* Articles */
+.article-top h2, h5, h6 {
+  margin-bottom: 2.5rem;
+}
+.article-top h2 {
+  font-size: 44px;
+}
+.article-top h5 {
+  font-size: 30px;
+}
+.article-top h6 {
+  font-size: 14px;
+}
+.article-top img {
+  margin: 6rem 0rem;
+  width: 100%;
+  height: auto;
+}
+.article p, h4 {
+  margin-bottom: 2.5rem;
+}
+.listen {
+  margin-bottom: 0rem;
+  margin: 2.5rem 0rem 5rem;
+}
+.article img {
+  margin: 2rem 0rem 6rem;
+  width: 130%;
+  height: auto;
+}
+.article-quote p {
+  font-size: 24px;
+  font-weight: 700;
+}
+.article-quote p::before {
+  content: "";
+  display: block;
+  border-top: 2px solid #FEC62E;
+  margin: 3rem 0rem;
+  width: 30%;
+}
+.article-quote p::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #FEC62E;
+  margin: 3rem 0rem;
+  width: 30%;
+}
+
+
+
+.recommended {
+  position: absolute;
+  right: 8%;
+  width: 300px;
+}
 .recommended a {
   text-decoration: none;
   color: black;
   font-weight: 700;
 }
+.recommended p {
+  margin-bottom: 1rem;
+}
+
+
+
+/* Author Section */
+.author-info {
+  display: flex;
+  padding: 3rem 0rem;
+}
+.author-image {
+  padding: 5rem 4rem 2rem 2rem;
+}
+.author-image::before {
+  content: "";
+  background-color: #EB3F1B;
+  height: 200px;
+  width: 70px;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  margin-top: -25px;
+  margin-left: -25px;
+}
+.author-about h6 {
+  border-top: 1px solid black;
+  width: 25%;
+  padding-top: 1rem
+}
+.author-about h5 {
+  padding-top: 1rem;
+  font-size: 24px;
+}
+
 
 
 /* Footer */
 .footer {
   background-color: #333132;
   height: 300px;
+  padding: 5rem 0rem 3rem;
 }
 .footer-content img {
   width: 100%;
@@ -268,12 +377,21 @@
 .footer-social {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .footer-social img {
   width: auto;
-  height: 50%;
+  height: 35%;
+}
+.address-number-email {
+  margin-top: 0.7rem;
 }
 .address-number-email p, .footer-copyright p {
   margin: 0;
   color: white;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.footer-copyright {
+  padding-top: 2rem;
 }

@@ -1,3 +1,44 @@
+
+/* FONTS */
+
+/* Corundum Text Book Italic
+font-family: corundum-text, serif;
+font-weight: 400;
+font-style: italic;
+
+
+Corundum Text Book Roman
+font-family: corundum-text, serif;
+font-weight: 400;
+font-style: normal;
+
+
+Corundum Text Bold Italic
+font-family: corundum-text, serif;
+font-weight: 700;
+font-style: italic;
+
+
+Corundum Text Bold Roman
+font-family: corundum-text, serif;
+font-weight: 700;
+font-style: normal;
+
+
+
+Auger Mono Regular
+font-family: auger-mono, monospace;
+font-weight: 400;
+font-style: normal;
+
+
+Auger Mono Bold
+font-family: auger-mono, monospace;
+font-weight: 700;
+font-style: normal; */
+
+
+
 /* Header */
 .header {
   position: absolute;
@@ -19,6 +60,10 @@
 .dropdown-menu a {
   color: black !important;
   inline-size: 300px;
+  font-family: corundum-text, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
 }
 .dropdown-toggle:after {
   display: none;
@@ -72,10 +117,11 @@
   background-color: #FEC62E;
   padding: 0rem 4rem 2rem 2rem;
   position: absolute;
-  left: 39%;
+  left: 40%;
   font-size: 40px;
   z-index: -1;
   bottom: 55%;
+  letter-spacing: 2px;
 }
 
 
@@ -100,8 +146,9 @@
 .hero-subpage .hero-text p {
   font-size: 24px;
   padding: 0rem 3rem 2rem 1rem;
-  left: 42%;
+  left: 43%;
   bottom: 40%;
+  letter-spacing: 2px;
 }
 
 
@@ -111,6 +158,15 @@
   padding: 6rem 0rem 4rem;
 }
 
+
+
+/* Audio Player */
+.audiogallery {
+  margin: 3rem 0rem;
+  background-color: #F5F5F5;
+  padding: 3rem;
+  width: 115%;
+}
 
 
 /* Image - Copy */
@@ -315,13 +371,58 @@
   margin: 3rem 0rem;
   width: 30%;
 }
+.article-grey .col{
+  background-color: #E5E5E5;
+  padding: 3rem 2rem;
+}
+.article-grey img{
+  width: 100%;
+  padding-bottom: 3rem;
+}
+.article-grey h5{
+  margin: 3rem 0rem 0rem;
+}
+.article-highlighted {
+  padding: 6rem 0rem;
+}
+.article-highlighted .container {
+  background-color: #FEC62E;
+  padding: 3rem;
+  text-align: center;
+}
+.article-highlighted h3 {
+  margin-bottom: 2.5rem;
+}
+.article-closing {
+  text-align: center;
+}
+
+.methodology .article {
+  padding: 4rem 0rem;
+}
+.about .article, .about .article-closing {
+  padding: 4rem 0rem;
+}
+.about .article h3{
+  margin-bottom: 2rem;
+}
 
 
 
 .recommended {
   position: absolute;
   right: 8%;
-  width: 300px;
+  max-width: 300px;
+}
+@media screen and (max-width: 1600px ) {
+  .recommended {
+    right: 3%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .recommended {
+    display: none;
+  }
 }
 .recommended a {
   text-decoration: none;
@@ -333,6 +434,40 @@
 }
 
 
+.full-image {
+  margin-bottom: 2.5rem;
+}
+
+
+/* For statistics */
+.statistics-row {
+  margin-bottom: 4rem;
+}
+.statistics {
+  padding: 2rem;
+  float: right;
+  margin-left: 2rem;
+}
+.statistics h3 {
+  font-size: 70px;
+  color: white;
+}
+.statistics p {
+  margin-bottom: 0;
+}
+
+
+
+/* background-colors */
+.blue {
+  background-color: #00A3E0;
+}
+.red {
+  background-color: #EB3F1B;
+}
+.yellow {
+  background-color: #FEC62E;
+}
 
 /* Author Section */
 .author-info {
@@ -352,6 +487,9 @@
   z-index: -1;
   margin-top: -25px;
   margin-left: -25px;
+}
+.author-image img {
+  height: 150px;
 }
 .author-about h6 {
   border-top: 1px solid black;
@@ -394,4 +532,48 @@
 }
 .footer-copyright {
   padding-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+p {
+  font-family: corundum-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.arial-bold {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.auger {
+  font-family: auger-mono, monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.auger-bold {
+  font-family: auger-mono, monospace;
+  font-weight: 700;
+  font-style: normal;
 }

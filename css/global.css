@@ -693,6 +693,7 @@ content: "";
 }
 .author-image img {
   height: 150px;
+  background-color: aliceblue;
 }
 .author-about h6 {
   border-top: 1px solid black;

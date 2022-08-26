@@ -1,5 +1,4 @@
-// var WaveSurfer = require("wavesurfer.js");
-// import WaveSurfer from "wavesurfer.js";
+// This is for the hero slider
 
 $(document).ready(function(){
   $('.fade').slick({
@@ -11,21 +10,5 @@ $(document).ready(function(){
   });
 });
 
-// audioPlayer = function() {
-
-//   var wavesurfer = WaveSurfer.create({
-//     container: '#waveform'
-//   });
-
-//   wavesurfer.load('../audio/Beyond the Reporting.mp3');
-
-//   wavesurfer.getDuration('../audio/Beyond the Reporting.mp3');
-
-//   wavesurfer.on('ready', function () {
-//     wavesurfer.play('../audio/Beyond the Reporting.mp3');
-//   });
-
-// }
-// audioPlayer();
 
 

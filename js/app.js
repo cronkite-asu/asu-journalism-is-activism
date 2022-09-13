@@ -7,6 +7,9 @@ $(document).ready(function(){
   infinite: true,
   autoplay: true,
   autoplaySpeed: 4000,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
   });
 });
 

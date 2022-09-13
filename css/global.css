@@ -71,6 +71,13 @@ p {
   font-weight: 400;
   font-style: normal;
 }
+.nav-home a:hover, .nav-right a:hover {
+  color: #FEC62E !important;
+}
+.nav-right .dropdown-menu a:hover {
+  color: black !important;
+}
+
 .dropdown-menu a {
   color: black !important;
   font-family: corundum-text, serif;
@@ -106,10 +113,17 @@ p {
 }
 
 
+hr {
+  margin: 0;
+  padding: 0;
+}
+
 
 /* Header - this is for the main homepage */
 .hero {
   z-index: -1;
+  height: 80vh;
+  background-color: black;
 }
 .fade:not(.show) {
   opacity: 1;
@@ -146,8 +160,10 @@ p {
   position: relative;
 }
 .slick-slide img {
+  height: 80vh;
   width: 100vw;
   object-fit: cover;
+  opacity: .7;
 }
 
 
@@ -388,6 +404,13 @@ p {
   font-weight: 400;
   font-style: normal;
 }
+.article-top h6:after {
+  content: "";
+  display: block;
+  border-top: 2px solid #FEC62E;
+  margin: 3rem 0rem;
+  width: 20%;
+}
 .article-top img {
   margin: 6rem 0rem;
   width: 100%;
@@ -425,9 +448,6 @@ p {
   font-weight: 700;
   font-style: normal;
 }
-.listen a {
-  color: black;
-}
 .listen::before {
   content: '';
   height: 100px;
@@ -438,15 +458,15 @@ p {
   margin-left: -25px;
 }
 .housing-recovery .small-side::before {
-content: "";
+  content: "";
   width: 10%;
 }
 .housing-recovery .medium-side::before {
-content: "";
+  content: "";
   width: 20%;
 }
 .housing-recovery .large-side::before {
-content: "";
+  content: "";
   width: 30%;
 }
 .housing-recovery .red-side::before {
@@ -458,6 +478,29 @@ content: "";
 .housing-recovery .yellow-side::before {
   background-color: #FEC62E;
 }
+.link-out {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.link-out::before {
+    content: '';
+    height: 50px;
+    display: block;
+    background-image: url('../images/noun-external-link-2084008.svg');
+    background-repeat: no-repeat;
+    width: 50px;
+    margin-right: 1rem;
+}
+.link-out a {
+  color: black;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+.link-out a:hover {
+  border-bottom: 1px solid black;
+}
+
 
 
 
@@ -587,9 +630,6 @@ content: "";
   font-style: normal;
   font-size: 42px;
 }
-.about .contributors h3 {
-  text-align: center;
-}
 .methodology .article-top {
   margin: 6rem 0rem;
 }
@@ -632,9 +672,14 @@ content: "";
   font-family: auger-mono, monospace;
   font-weight: 400;
   font-style: normal;
+  margin-left: 1rem;
 }
 .recommended p {
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+  padding: 1rem;
+}
+.recommended p:hover {
+  background-color: #FEC62E;
 }
 
 
@@ -730,10 +775,13 @@ content: "";
   display: flex;
   flex-wrap: wrap;
 }
+.about .authors .col-lg-4 {
+  margin-bottom: 5rem;
+}
 .about .author-image::before {
   content: "";
   display: block;
-  height: 410px;
+  height: 105%;
   position: absolute;
   z-index: -1;
   margin-top: -35px;
@@ -749,7 +797,7 @@ content: "";
 }
 .about .large::before {
   content: "";
-  width: 260px;
+  width: 65%;
 }
 .about .red-side::before {
   background-color: #EB3F1B;
@@ -771,8 +819,8 @@ content: "";
 }
 .about .name {
   position: absolute;
-  top: 60%;
-  left: 50%;
+  bottom: -22%;
+  left: 30%;
   transform: translate(-50%, -50%);
 }
 
@@ -850,9 +898,6 @@ content: "";
     flex-wrap: wrap;
     margin-top: 60px;
   }
-  .slick-slide img {
-    height: 75vh;
-  }
   .hero-text {
     top: 97%;
   }
@@ -867,7 +912,7 @@ content: "";
   }
 
   .hero-subpage .hero-text {
-    top: 93%;
+    top: 94%;
   }
   .hero-subpage .hero-text p {
     padding: 0rem 2rem 2rem 1rem;
@@ -876,7 +921,7 @@ content: "";
     bottom: 20%;
   }
   .hero-subpage .hero-text h2 {
-    font-size: 64px;
+    font-size: 56px;
   }
 
 
@@ -1030,23 +1075,11 @@ content: "";
   }
 
 
-  .about .author-image::before {
-    height: 285px;
-  }
-  .about .small::before {
-    content: "";
-    width: 60px;
-  }
-  .about .medium::before {
-    content: "";
-    width: 100px;
-  }
-  .about .large::before {
-    content: "";
-    width: 160px;
-  }
 
-
+  .about .name {
+    bottom: -27%;
+    left: 35%;
+  }
 
   .about-the-author {
     padding: 0rem 1rem;

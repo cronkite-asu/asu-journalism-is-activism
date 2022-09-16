@@ -1,0 +1,73 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="55">
+<path style="fill:#333132; stroke:none;" d="M0 0L0 48C6.53485 47.982 12.7991 47.289 18 43L7 33L11 33L11 32C6.17436 28.5697 3.386 24.7655 2 19L6 20C3.48213 12.9615 2.30487 9.4372 4 2C11.9241 9.75532 20.6571 15.5055 32 16C32.3201 9.09598 35.0281 4.5275 41 1C30.2501 -3.51085 11.6957 0 0 0z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M41 0L42 1L41 0z"/>
+<path class="twitter-gray" style="fill:#d1d1d1; stroke:none;" d="M33 16L32 17C22.1371 13.8746 12.6839 11.7136 6 3L4 3C2.44333 9.53846 3.11015 14.4666 7 20L3 19C3.32975 25.343 5.81431 29.8782 12 32L12 33L8 33C9.85556 38.4426 13.2678 41.3615 19 42C14.1562 46.8909 7.65471 47.9449 1 48L1 49C18.7404 58.4459 42.431 54.8844 53.5324 37C59.615 27.2009 59.4461 16.4627 66 7L61 8L65 1C54.7926 4.92296 29.2853 -6.40693 33 16z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M50 0L51 1L50 0z"/>
+<path style="fill:#333132; stroke:none;" d="M51 0L51 1C56.5285 3.40482 59.4223 3.14366 65 1L61 8C65.5134 6.36991 66.8398 4.81892 67 0L51 0z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M39 1L40 2L39 1z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M63 1L64 2L63 1z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M4 2L5 3L4 2M54 2L55 3L54 2z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M61 2L62 3L61 2M64 2L65 3L64 2z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M36 3L37 4L36 3z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M55 3L56 4L55 3z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M58 3L59 4L58 3z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M3 4L4 5L3 4M6 4L7 5L6 4z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M35 4L36 5L35 4z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M63 4L64 5L63 4M7 5L8 6L7 5M8 6L9 7L8 6M34 6L35 7L34 6z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M65 6L67 8L65 6z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M66 6L67 7L66 6z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M2 7L3 8L2 7M33 7L34 8L33 7M62 7L63 8L62 7z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M2 8L2 11L3 11L2 8z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M11 8L12 9L11 8z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M65 8L66 9L65 8z"/>
+<path style="fill:#333132; stroke:none;" d="M66 8C59.6289 14.5847 60.6853 20.9516 57.5363 29C52.0424 43.0413 39.3568 53.6813 24 54L24 55L67 55C67 41.735 71.1095 20.1766 66 8z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M12 9L13 10L12 9M64 9L65 10L64 9z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M14 10L15 11L14 10M32 10L33 11L32 10z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M63 10L64 11L63 10z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M2 11L3 12L2 11z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M15 11L16 12L15 11M32.3333 11.6667L32.6667 12.3333L32.3333 11.6667M62 11L63 12L62 11M17 12L18 13L17 12M61 12L62 13L61 12z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M60 13L61 14L60 13z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M3 14L4 15L3 14z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M22 14L23 15L22 14z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M25 15L26 16L25 15z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M26 15L27 16L26 15z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M32 15L33 16L32 15M4 16L5 17L4 16M31 16L32 17L31 16z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M2 19L3 20L2 19z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M4 19L5 20L4 19M6 19L7 20L6 19z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M2 20L3 21L2 20M7 20L8 21L7 20z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M2 21L3 22L2 21z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M59 21L60 22L59 21z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M59 22L60 23L59 22z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M3 24L4 25L3 24M4 26L5 27L4 26z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M58 26L59 27L58 26z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M57 29L58 30L57 29M9 31L10 32L9 31z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M56 31L57 32L56 31z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M11 32L12 33L11 32z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M7 33L8 34L7 33M55 33L56 34L55 33M8 35L9 36L8 35M54 35L55 36L54 35z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M9 37L10 38L9 37M53 37L54 38L53 37z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M10 38L11 39L10 38z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M52 38L53 39L52 38z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M11 39L12 40L11 39M14 41L15 42L14 41M50 41L51 42L50 41M17 42L18 43L17 42z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M18.3333 42.6667L18.6667 43.3333L18.3333 42.6667z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M49 42L50 43L49 42M48 43L49 44L48 43M16 44L17 45L16 44M47 44L48 45L47 44M14 45L15 46L14 45M46 45L47 46L46 45z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M12 46L13 47L12 46z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M8 47L9 48L8 47z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M43 47L44 48L43 47M0 48L1 49L0 48z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M42 48L43 49L42 48z"/>
+<path style="fill:#333132; stroke:none;" d="M0 49L0 55L18 55L18 54L0 49z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M1 49L2 50L1 49z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M40 49L41 50L40 49z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M3 50L4 51L3 50z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M38 50L39 51L38 50z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M5 51L6 52L5 51z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M6 51L7 52L6 51z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M36 51L37 52L36 51z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M8 52L9 53L8 52z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M33 52L34 53L33 52z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M34 52L35 53L34 52z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M12 53L13 54L12 53z"/>
+<path style="fill:#d5d5d5; stroke:none;" d="M30 53L31 54L30 53z"/>
+<path style="fill:#cfcfcf; stroke:none;" d="M18 54L19 55L18 54z"/>
+<path style="fill:#d3d3d3; stroke:none;" d="M19 54L19 55L24 55L19 54z"/>
+</svg>

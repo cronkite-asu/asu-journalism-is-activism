@@ -201,6 +201,8 @@ hr {
 
 
 
+
+
 /* Audio Player */
 .audiogallery {
   margin: 3rem 0rem;
@@ -544,6 +546,12 @@ hr {
   font-weight: 400;
   font-style: normal;
 }
+.faces-of-paz .article-grey h3 {
+  font-family: corundum-text, serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 2.5rem;
+}
 .article-highlighted {
   padding: 6rem 0rem;
 }
@@ -675,11 +683,12 @@ hr {
 }
 .statistics p {
   font-size: 20px;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
   font-family: auger-mono, monospace;
   font-weight: 400;
   font-style: normal;
 }
+
 
 
 
@@ -784,6 +793,9 @@ hr {
   height: auto;
   width: 100%;
   filter: grayscale(100%);
+}
+.about .author-image a:hover img {
+  filter: none;
 }
 .about .name {
   padding: 0rem 2rem;

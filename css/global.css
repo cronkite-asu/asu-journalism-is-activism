@@ -386,6 +386,9 @@ hr {
   width: 100%;
   height: auto;
 }
+.first-place-simple .article-top {
+  margin-top: 6rem;
+}
 .layers-of-policy .article-top img {
   margin: 6rem 0rem 1rem;
 }
@@ -408,6 +411,12 @@ hr {
   font-weight: 700;
   font-style: normal;
   margin-bottom: 2.5rem;
+}
+.article-link {
+  margin-bottom: 2rem;
+}
+.article-link a {
+  color: black;
 }
 
 

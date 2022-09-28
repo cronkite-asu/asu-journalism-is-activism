@@ -663,6 +663,13 @@ h4 {
   margin-bottom: 2.5rem;
 }
 
+.we-care .article-grey h3 {
+  font-family: corundum-text, serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 2.5rem;
+}
+
 .article-highlighted {
   padding: 6rem 0rem;
 }

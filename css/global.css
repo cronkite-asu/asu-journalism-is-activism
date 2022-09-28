@@ -44,7 +44,19 @@ p {
   font-size: 24px;
 }
 
+.plain-story {
+  font-family: corundum-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
 
+ul > li {
+  font-family: corundum-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
 
 
 /* Header */
